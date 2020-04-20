@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="3" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="156.889125">
+<testcase classname="Automation Practice ContactUs" name="Automation Practice ContactUs Page Scenario" time="41.903293">
+<system-out><![CDATA[Given User already on ContactUs Page........................................passed
+When Title of ContactUS page is ContactUs...................................passed
+Then user enter SubjectHandling emialId Message and OrderReferance..........passed
+Then User Click on SignIn Button............................................passed
+And Message should sent  successfully sent to our team......................passed
+]]></system-out>
+</testcase>
+<testcase classname="Automation Practice SignIn" name="Automation Create Account on SignIn Page" time="33.949601">
+<failure message="org.junit.ComparisonFailure: expected:&lt;[Create an account]&gt; but was:&lt;[Login - My Store]&gt;&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:115)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:144)&#13;&#10;&#9;at StepDefination.SignInDefination.createaccount_Page_displayed(SignInDefination.java:65)&#13;&#10;&#9;at ✽.Then CreateAccount Page displayed(SignIn.feature:9)&#13;&#10;"><![CDATA[Given User already on SignIn Page...........................................passed
+When Title of SignIn page is ContactUs......................................passed
+Then user enter "test090909@test.com".......................................passed
+Then User Click on CreateAccount Button.....................................passed
+Then CreateAccount Page displayed...........................................failed
+
+StackTrace:
+org.junit.ComparisonFailure: expected:<[Create an account]> but was:<[Login - My Store]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at StepDefination.SignInDefination.createaccount_Page_displayed(SignInDefination.java:65)
+	at ✽.Then CreateAccount Page displayed(SignIn.feature:9)
+]]></failure>
+</testcase>
+<testcase classname="Automation Practice SignIn" name="Automation Create Account on SignIn Page with Example Keyword" time="37.890922">
+<failure message="org.junit.ComparisonFailure: expected:&lt;[Create an account]&gt; but was:&lt;[Login - My Store]&gt;&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:115)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:144)&#13;&#10;&#9;at StepDefination.SignInDefination.createaccount_Page_displayed(SignInDefination.java:65)&#13;&#10;&#9;at ✽.Then CreateAccount Page displayed(SignIn.feature:19)&#13;&#10;"><![CDATA[Given User already on SignIn Page...........................................passed
+When Title of SignIn page is ContactUs......................................passed
+Then user enter "test@test1.com"............................................passed
+Then User Click on CreateAccount Button.....................................passed
+Then CreateAccount Page displayed...........................................failed
+
+StackTrace:
+org.junit.ComparisonFailure: expected:<[Create an account]> but was:<[Login - My Store]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at StepDefination.SignInDefination.createaccount_Page_displayed(SignInDefination.java:65)
+	at ✽.Then CreateAccount Page displayed(SignIn.feature:19)
+]]></failure>
+</testcase>
+<testcase classname="Automation Practice SignIn" name="Automation Create Account on SignIn Page with Example Keyword 2" time="43.145309">
+<failure message="org.junit.ComparisonFailure: expected:&lt;[Create an account]&gt; but was:&lt;[Login - My Store]&gt;&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:115)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:144)&#13;&#10;&#9;at StepDefination.SignInDefination.createaccount_Page_displayed(SignInDefination.java:65)&#13;&#10;&#9;at ✽.Then CreateAccount Page displayed(SignIn.feature:19)&#13;&#10;"><![CDATA[Given User already on SignIn Page...........................................passed
+When Title of SignIn page is ContactUs......................................passed
+Then user enter "test@test2.com"............................................passed
+Then User Click on CreateAccount Button.....................................passed
+Then CreateAccount Page displayed...........................................failed
+
+StackTrace:
+org.junit.ComparisonFailure: expected:<[Create an account]> but was:<[Login - My Store]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at StepDefination.SignInDefination.createaccount_Page_displayed(SignInDefination.java:65)
+	at ✽.Then CreateAccount Page displayed(SignIn.feature:19)
+]]></failure>
+</testcase>
+</testsuite>

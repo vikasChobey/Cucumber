@@ -1,0 +1,548 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 2,
+            "value": "# with Datatable"
+          }
+        ],
+        "before": [
+          {
+            "result": {
+              "duration": 13132674701,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ContactUsDefination.Intiate()"
+            }
+          },
+          {
+            "result": {
+              "duration": 9644982900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SignInDefination.Intiate()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Automation Practice ContactUs Page Scenario",
+        "description": "",
+        "id": "automation-practice-contactus;automation-practice-contactus-page-scenario",
+        "after": [
+          {
+            "result": {
+              "duration": 788948000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ContactUsDefination.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 71299,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SignInDefination.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12812252299,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User already on ContactUs Page",
+            "match": {
+              "location": "ContactUsDefination.userAlreadyonContactUsPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 62905900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Title of ContactUS page is ContactUs",
+            "match": {
+              "location": "ContactUsDefination.title_of_ContactUS_page_is_ContactUs()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2062949901,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enter SubjectHandling emialId Message and OrderReferance",
+            "match": {
+              "location": "ContactUsDefination.user_enter_SubjectHandling_emialId_Message_and_OrderReferance(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Customer service",
+                  "test@test.com",
+                  "testOrder Referance",
+                  "Test Message"
+                ],
+                "line": 9
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3336302999,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User Click on SignIn Button",
+            "match": {
+              "location": "ContactUsDefination.user_Click_on_SignIn_Button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 62205100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Message should sent  successfully sent to our team",
+            "match": {
+              "location": "ContactUsDefination.message_should_sent_successfully_sent_to_our_team()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "Automation Practice ContactUs",
+    "description": "",
+    "id": "automation-practice-contactus",
+    "keyword": "Feature",
+    "uri": "ContactUs.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 9708693500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ContactUsDefination.Intiate()"
+            }
+          },
+          {
+            "result": {
+              "duration": 9659836200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SignInDefination.Intiate()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Automation Create Account on SignIn Page",
+        "description": "",
+        "id": "automation-practice-signin;automation-create-account-on-signin-page",
+        "after": [
+          {
+            "result": {
+              "duration": 750637599,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ContactUsDefination.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 32700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SignInDefination.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12225324000,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 4,
+                "value": "#without using Example Keyword"
+              }
+            ],
+            "line": 5,
+            "name": "User already on SignIn Page",
+            "match": {
+              "location": "SignInDefination.user_already_on_SignIn_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 78072400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Title of SignIn page is ContactUs",
+            "match": {
+              "location": "SignInDefination.title_of_SignIn_page_is_ContactUs()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1256364900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enter \"test090909@test.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test090909@test.com",
+                  "offset": 12
+                }
+              ],
+              "location": "SignInDefination.user_enter_emailId(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 261280800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User Click on CreateAccount Button",
+            "match": {
+              "location": "SignInDefination.user_Click_on_CreateAccount_Button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9359000,
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[Create an account]\u003e but was:\u003c[Login - My Store]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat StepDefination.SignInDefination.createaccount_Page_displayed(SignInDefination.java:65)\r\n\tat ✽.Then CreateAccount Page displayed(SignIn.feature:9)\r\n",
+              "status": "failed"
+            },
+            "line": 9,
+            "name": "CreateAccount Page displayed",
+            "match": {
+              "location": "SignInDefination.createaccount_Page_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@RegressionTest"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 9707210200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ContactUsDefination.Intiate()"
+            }
+          },
+          {
+            "result": {
+              "duration": 9679455100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SignInDefination.Intiate()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "Automation Create Account on SignIn Page with Example Keyword",
+        "description": "",
+        "id": "automation-practice-signin;automation-create-account-on-signin-page-with-example-keyword;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 739061500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ContactUsDefination.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 26499,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SignInDefination.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 16278289799,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 14,
+                "value": "#without using Example Keyword"
+              }
+            ],
+            "line": 15,
+            "name": "User already on SignIn Page",
+            "match": {
+              "location": "SignInDefination.user_already_on_SignIn_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 62162700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Title of SignIn page is ContactUs",
+            "match": {
+              "location": "SignInDefination.title_of_SignIn_page_is_ContactUs()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1277329200,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user enter \"test@test1.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test@test1.com",
+                  "offset": 12
+                }
+              ],
+              "location": "SignInDefination.user_enter_emailId(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 140600000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User Click on CreateAccount Button",
+            "match": {
+              "location": "SignInDefination.user_Click_on_CreateAccount_Button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6787401,
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[Create an account]\u003e but was:\u003c[Login - My Store]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat StepDefination.SignInDefination.createaccount_Page_displayed(SignInDefination.java:65)\r\n\tat ✽.Then CreateAccount Page displayed(SignIn.feature:19)\r\n",
+              "status": "failed"
+            },
+            "line": 19,
+            "name": "CreateAccount Page displayed",
+            "match": {
+              "location": "SignInDefination.createaccount_Page_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 12,
+            "name": "@RegressionTest"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 9673493699,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ContactUsDefination.Intiate()"
+            }
+          },
+          {
+            "result": {
+              "duration": 9683405900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SignInDefination.Intiate()"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "Automation Create Account on SignIn Page with Example Keyword",
+        "description": "",
+        "id": "automation-practice-signin;automation-create-account-on-signin-page-with-example-keyword;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 760652601,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ContactUsDefination.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 22100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SignInDefination.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 21592503200,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 14,
+                "value": "#without using Example Keyword"
+              }
+            ],
+            "line": 15,
+            "name": "User already on SignIn Page",
+            "match": {
+              "location": "SignInDefination.user_already_on_SignIn_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 22116400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Title of SignIn page is ContactUs",
+            "match": {
+              "location": "SignInDefination.title_of_SignIn_page_is_ContactUs()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1210733000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user enter \"test@test2.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test@test2.com",
+                  "offset": 12
+                }
+              ],
+              "location": "SignInDefination.user_enter_emailId(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 193287400,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User Click on CreateAccount Button",
+            "match": {
+              "location": "SignInDefination.user_Click_on_CreateAccount_Button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9094601,
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[Create an account]\u003e but was:\u003c[Login - My Store]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat StepDefination.SignInDefination.createaccount_Page_displayed(SignInDefination.java:65)\r\n\tat ✽.Then CreateAccount Page displayed(SignIn.feature:19)\r\n",
+              "status": "failed"
+            },
+            "line": 19,
+            "name": "CreateAccount Page displayed",
+            "match": {
+              "location": "SignInDefination.createaccount_Page_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 12,
+            "name": "@RegressionTest"
+          }
+        ]
+      }
+    ],
+    "name": "Automation Practice SignIn",
+    "description": "",
+    "id": "automation-practice-signin",
+    "keyword": "Feature",
+    "uri": "SignIn.feature"
+  }
+]
